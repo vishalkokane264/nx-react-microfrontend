@@ -10,6 +10,8 @@ Enhance your Nx experience by installing [Nx Console](https://nx.dev/nx-console)
 provides an interactive UI to view your projects, run tasks, generate code, and more! Available for VSCode, IntelliJ and
 comes with a LSP for Vim users.
 
+## MICROF-DEMO Workspace Documentation: [Documentation](https://docs.google.com/document/d/1qg8R7Fd73K6f5yWGFIiesNb5m-qvJWgERoqzjGx_DwY/edit?usp=sharing)
+
 ## Start the application
 
 Run `npx nx serve container-app` to start the development server. Happy coding!
