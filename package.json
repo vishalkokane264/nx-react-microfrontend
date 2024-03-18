@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "setup-workspace":"npm install --force",
     "prepare": "husky",
     "lint": "eslint apps/**/*.{tsx,ts} --max-warnings 0",
 
