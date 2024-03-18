@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint": "eslint apps/**/*.{tsx,ts} --max-warnings 0",
-    "pre-push": "npm run test",
 
     "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"70\"}}'",
     "test-library": "nx run ui-library:test --coverage --coverageThreshold='{\"global\":{\"statements\":\"100\"}}'",
