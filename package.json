@@ -5,20 +5,17 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint apps/**/*.{tsx,ts} --max-warnings 0",
-
     "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"70\"}}'",
     "test-library": "nx run ui-library:test --coverage --coverageThreshold='{\"global\":{\"statements\":\"100\"}}'",
-
     "build-container": "nx run container:build",
     "build-child": "nx run child:build",
     "build-about": "nx run about:build",
     "build-ui-library": "nx run ui-library:build",
     "build-ui-library-storybook": "nx run ui-library:build-storybook",
-
-    "run-ui-lib":"nx run ui-library:storybook",
-    "run-container":"nx run container:serve",
-    "run-about":"nx run about:serve",
-    "run-child":"nx run child:serve"
+    "run-ui-lib": "nx run ui-library:storybook",
+    "run-container": "nx run container:serve",
+    "run-about": "nx run about:serve",
+    "run-child": "nx run child:serve"
   },
   "private": true,
   "dependencies": {
@@ -91,6 +88,7 @@
     "prettier": "^2.6.2",
     "react-refresh": "^0.10.0",
     "sass": "^1.55.0",
+    "sonarqube-scanner": "^3.3.0",
     "storybook": "^7.5.3",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
