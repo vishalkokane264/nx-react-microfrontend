@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
+interface IDashboard {
+  name: string;
+}
 
-export const Dashboard = ({ name }: any) => {
+export const Dashboard = ({ name }: IDashboard) => {
   const [userName, setUserName] = useState<string>('sample');
 
   useEffect(() => {

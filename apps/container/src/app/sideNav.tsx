@@ -8,7 +8,11 @@ export const SideNav = () => {
         </li>
 
         <li className="list-item">
-          <Link to="/child">Child</Link>
+          <Link to="/child1">Child</Link>
+        </li>
+
+        <li className="list-item">
+          <Link to="/child2">Child Dashboard</Link>
         </li>
 
         <li className="list-item">

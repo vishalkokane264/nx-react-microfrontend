@@ -2,10 +2,6 @@
 
 import NxWelcome from './nx-welcome';
 
-interface IApp {
-  name: string;
-}
-
 export function App() {
   return (
     <div>
