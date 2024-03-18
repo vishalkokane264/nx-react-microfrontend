@@ -5,8 +5,10 @@ import NxWelcome from './nx-welcome';
 import { Route, Routes } from 'react-router-dom';
 import SideNav from './sideNav';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Child: any = React.lazy(() => import('child/Module'));
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const ChildDashboard: any = React.lazy(() => import('child/Dashboard'));
 
 const About = React.lazy(() => import('about/Module'));
@@ -21,7 +23,11 @@ export function App() {
         <div className="container-body">
           <Routes>
             <Route path="/" element={<NxWelcome title="container" />} />
-            <Route path="/child" element={<ChildDashboard name={'vishal'} />} />
+            <Route path="/child1" element={<Child />} />
+            <Route
+              path="/child2"
+              element={<ChildDashboard name={'vishal'} />}
+            />
             <Route path="/about" element={<About />} />
           </Routes>
         </div>

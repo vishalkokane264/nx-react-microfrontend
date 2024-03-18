@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "husky",
     "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"70\"}}'",
-    "lint": "eslint apps/**/*.tsx apps/**/*.ts",
+    "lint": "eslint apps/**/*.{tsx,ts} --max-warnings 0",
     "build-container":"nx run container:build",
     "build-child":"nx run child:build",
     "build-about":"nx run about:build"
