@@ -1,1 +1,4 @@
-export { default } from './app/app';
+export { Dashboard } from './app/dashboard';
+
+export { App as default } from './app/app';
+

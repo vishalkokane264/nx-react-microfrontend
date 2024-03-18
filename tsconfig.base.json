@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "about/Module": ["apps/about/src/remote-entry.ts"],
-      "child/Module": ["apps/child/src/remote-entry.ts"]
+      "child/Module": ["apps/child/src/remote-entry.ts"],
+      "child/Dashboard": ["apps/child/src/app/dashboard.tsx"]
     }
   },
   "exclude": ["node_modules", "tmp"]
