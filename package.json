@@ -4,13 +4,17 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky",
-    "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"70\"}}'",
     "lint": "eslint apps/**/*.{tsx,ts} --max-warnings 0",
+
+    "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"70\"}}'",
+    "test-library": "nx run ui-library:test --coverage --coverageThreshold='{\"global\":{\"statements\":\"100\"}}'",
+
     "build-container": "nx run container:build",
     "build-child": "nx run child:build",
     "build-about": "nx run about:build",
     "build-ui-library": "nx run ui-library:build",
     "build-ui-library-storybook": "nx run ui-library:build-storybook",
+
     "run-ui-lib":"nx run ui-library:storybook",
     "run-container":"nx run container:serve",
     "run-about":"nx run about:serve",
