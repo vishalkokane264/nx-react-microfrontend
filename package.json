@@ -4,11 +4,12 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky",
-    "test":"jest"
+    "test": "jest --coverage --watchAll=false"
   },
   "private": true,
   "dependencies": {
     "@module-federation/node": "~0.9.9",
+    "commitlint": "^19.2.0",
     "cors": "~2.8.5",
     "express": "~4.18.2",
     "isbot": "^3.6.5",
