@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky",
-    "test": "jest --coverage --watchAll=false"
+    "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"80\"}}'"
   },
   "private": true,
   "dependencies": {
