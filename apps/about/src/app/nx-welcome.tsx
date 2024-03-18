@@ -25,7 +25,6 @@ export function NxWelcome({ title }: { title: string }) {
       font-family: inherit;
       line-height: inherit;
       margin: 0;
-      background-color:red;
     }
     h1,
     h2,

@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "about/Module": ["apps/about/src/remote-entry.ts"],
       "child/Module": ["apps/child/src/remote-entry.ts"]
     }
   },
