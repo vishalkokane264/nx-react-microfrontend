@@ -7,7 +7,7 @@
     "prepare": "husky",
     "lint": "eslint apps/**/*.{tsx,ts} --max-warnings 0",
 
-    "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"70\"}}'",
+    "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"80\"}}'",
     "test-library": "nx run ui-library:test --coverage --coverageThreshold='{\"global\":{\"statements\":\"100\"}}'",
 
     "build-container": "nx run container:build",
