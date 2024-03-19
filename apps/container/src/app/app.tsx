@@ -26,7 +26,7 @@ export function App() {
             <Route path="/child1" element={<Child />} />
             <Route
               path="/child2"
-              element={<ChildDashboard name={'vishal'} />}
+              element={<ChildDashboard name={'santosh'} />}
             />
             <Route path="/about" element={<About />} />
           </Routes>

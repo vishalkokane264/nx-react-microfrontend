@@ -2,24 +2,14 @@ import { render } from '@testing-library/react';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import App from './app';
-
-describe('App', () => {
+import Dashboard from './remote-entry';
+describe('Testing remote Entry', () => {
   it('should render successfully', () => {
     const { baseElement } = render(
       <BrowserRouter>
-        <App />
+        <Dashboard />
       </BrowserRouter>
     );
     expect(baseElement).toBeTruthy();
-  });
-
-  it('should have a greeting as the title', () => {
-    const { getByText } = render(
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    );
-    expect(getByText(/Hello about/gi)).toBeTruthy();
   });
 });

@@ -1,25 +1,15 @@
 import { render } from '@testing-library/react';
 
+import SideNav from './sideNav';
 import { BrowserRouter } from 'react-router-dom';
 
-import App from './app';
-
-describe('App', () => {
+describe('Sidenav', () => {
   it('should render successfully', () => {
     const { baseElement } = render(
       <BrowserRouter>
-        <App />
+        <SideNav />
       </BrowserRouter>
     );
     expect(baseElement).toBeTruthy();
-  });
-
-  it('should have a greeting as the title', () => {
-    const { getByText } = render(
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    );
-    expect(getByText(/Hello about/gi)).toBeTruthy();
   });
 });
