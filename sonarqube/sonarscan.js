@@ -3,7 +3,7 @@ const scanner = require('sonarqube-scanner');
 scanner(
     {
         serverUrl: 'http://localhost:9000',
-        token: "27202e8522779837d8df8c9e6f33bc8dda1478cd",
+        token: "f4b14871bbe38451aa1d1a9262c17cdf1128ab94",
         options: {
             'sonar.projectName': 'microf-demo',
             'sonar.projectDescription': 'Here I can add a description of my project',

@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@component-lib/components": ["libs/component-lib/src/index.ts"],
       "@mf-lib/component-list": ["libs/ui-library/src/index.ts"],
       "about/Module": ["apps/about/src/remote-entry.ts"],
       "child/Dashboard": ["apps/child/src/app/dashboard.tsx"],

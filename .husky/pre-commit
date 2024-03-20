@@ -1,7 +1,9 @@
 npm run lint
 npm run test
+npm run sonar-scan
 npm run test-library
 npm run build-container
 npm run build-child
 npm run build-about
-npm run build-ui-library
+npm run build-component-lib
+
