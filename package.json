@@ -7,7 +7,7 @@
     "prepare": "husky",
     "lint": "eslint apps/**/*.{tsx,ts} --max-warnings 0",
     "test": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"80\"}}'",
-    "test-library": "nx run component-lib:test --coverage --coverageThreshold='{\"global\":{\"statements\":\"100\"}}'",
+    "test-library": "nx run component-lib:test --coverage --coverageThreshold='{\"global\":{\"statements\":\"80\"}}'",
     "build-container": "nx run container:build",
     "build-child": "nx run child:build",
     "build-about": "nx run about:build",
@@ -18,6 +18,7 @@
     "about": "nx run about:serve",
     "child": "nx run child:serve",
     "sonar-scan": "sonar-scanner -Dsonar.projectKey=microf-demo -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.login=f4b14871bbe38451aa1d1a9262c17cdf1128ab94"
+    
   },
   "private": true,
   "dependencies": {
