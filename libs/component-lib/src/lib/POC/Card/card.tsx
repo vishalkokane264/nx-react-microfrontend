@@ -33,7 +33,9 @@ export function Card(props: CardProps) {
     </div>
   );
 }
-
+/*ANCHOR -
+this is default values it will pick
+*/
 Card.defaultValues = {
   icon: 'icon',
   title: 'Human technology teamwork.mkv',

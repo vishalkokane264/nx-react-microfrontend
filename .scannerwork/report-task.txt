@@ -2,5 +2,5 @@ projectKey=microf-demo
 serverUrl=http://localhost:9000
 serverVersion=9.0.1.46107
 dashboardUrl=http://localhost:9000/dashboard?id=microf-demo
-ceTaskId=AY5a1Ikz7oBF2nvM3SBh
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AY5a1Ikz7oBF2nvM3SBh
+ceTaskId=AY5a4iom7oBF2nvM3SBn
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY5a4iom7oBF2nvM3SBn
