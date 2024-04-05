@@ -18,22 +18,24 @@
     "about": "nx run about:serve",
     "child": "nx run child:serve",
     "sonar-scan": "sonar-scanner -Dsonar.projectKey=microf-demo -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.login=f4b14871bbe38451aa1d1a9262c17cdf1128ab94"
-    
   },
   "private": true,
   "dependencies": {
     "@module-federation/node": "~0.9.9",
     "@nrwl/rollup": "^18.1.2",
+    "@xstate/react": "^4.1.0",
     "commitlint": "^19.2.0",
     "cors": "~2.8.5",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "express": "~4.18.2",
     "isbot": "^3.6.5",
+    "json-logic-js": "^2.0.2",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.11.2",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "xstate": "^5.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
